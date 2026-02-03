@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reparaciones de PC</title>
@@ -11,58 +10,59 @@
 
     <!-- CSS externo -->
     <link rel="stylesheet" href="styles.css">
+</head>
 
-
+<body>
     <header>
-        <h1> Reparaciones de pc</h1>
+        <h1>Reparaciones de PC</h1>
         <hr>
-       <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="preferencias.html">Preferencias</a></li>
-            <li><a href="imagenes.html">Imagenes</a></li>
-            <li><a href="contacto.html">Contactos</a></li>
-        </ul>
-       </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
         <div class="contenedor-formulario">
             <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Escribe aqui Tu Nombre" required minlength="3">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Escribe aqui Tu Apellido" required minlength="3">
-                <label for="mail">Email:</label>
-                <input type="text" id="mail" name="mail" placeholder="Escribe tu mail" required>
-                <label for="pais">Pais</label>
-                <select name="pais" id="pais">
-                    <option value="">Argentina</option>
-                    <option value="">Paragual</option>
-                    <option value="">Mexico</option>
-                    <option value="">Venezuela</option>
-                    <option value="">Brasil</option>
-                    <option value="">Uruguay</option>
-                    <option value="">Bolivia</option>
-                    <option value="">Peru</option>
-                    <option value="">España</option>
-                    <option value="">Chile</option>
+                <label>Nombre:</label>
+                <input type="text" placeholder="Escribe aqui Tu Nombre" required minlength="3">
+
+                <label>Apellido:</label>
+                <input type="text" placeholder="Escribe aqui Tu Apellido" required minlength="3">
+
+                <label>Email:</label>
+                <input type="email" placeholder="Escribe tu mail" required>
+
+                <label>Pais</label>
+                <select>
+                    <option>Argentina</option>
+                    <option>Paraguay</option>
+                    <option>Mexico</option>
+                    <option>Venezuela</option>
+                    <option>Brasil</option>
                 </select>
-                <label for="comentario">Comentario</label>
-                <textarea name="comentario" id="comentario" placeholder="Escribi aqui tu Comentario"></textarea>
-                <label for="motivo">Motivo de Contacto</label>
-                <input type="radio" id="motivo" name="motivo"> <i>soy Fan</i>
-                <input type="radio" id="motivo" name="motivo"> <i>Motivos Comerciales</i>
-                <input type="radio" id="motivo" name="motivo"> <i> reclamos</i>
-                <input type="radio" id="motivo" name="motivo"> <i> Quiero una Remera</i>
+
+                <label>Comentario</label>
+                <textarea placeholder="Escribi aqui tu Comentario"></textarea>
+
+                <label>Motivo de Contacto</label>
+                <input type="radio" name="motivo"> soy Fan  
+                <input type="radio" name="motivo"> Motivos Comerciales  
+                <input type="radio" name="motivo"> Reclamos  
+
                 <input type="submit" value="Enviar">
-                
             </form>
         </div>
     </main>
+
     <footer class="footer">
         <p>Derechos Reservados &copy;2023</p>
         <h3>Jose Daniel Aira</h3>
     </footer>
-    
 </body>
 </html>
